@@ -15,6 +15,7 @@ $oldalak = array(
     '/' => ['fajl' => 'cimlap', 'szoveg' => 'Főoldal'],
     'tamogatas' => ['fajl' => 'tamogatas', 'szoveg' => 'Támogatás'],
     'kepek' => ['fajl' => 'kepek', 'szoveg' => 'Képek'],
+    'feltoltes' => ['fajl' => 'kepek', 'szoveg' => 'Feltöltés', 'rejtett' => true],
 );
 
 //képekhez beállítások
