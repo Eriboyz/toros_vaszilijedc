@@ -1,0 +1,28 @@
+function kapcsolatKuldes() {
+    // mezők kiolvasása
+    var nev = document.getElementById("nev").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var uzenet = document.getElementById("uzenet").value.trim();
+    //hibaüzenetek listája
+    var hibak = [];
+    //név ellenörz.
+    if (nev === "") {
+        hibak.push("A név megadása kötelező.");
+    }
+
+    //mail ellenörz.
+    if (email.indexOf("@") === -1 || email.indexOf(".") === -1) {
+        hibak.push("Érvényes e-mail címet adjon meg.");
+    }
+
+    //üzenet ellenörz.
+    if (uzenet.length < 5) {
+        hibak.push("Az üzenet minimum 5 karakter legyen.");
+    }
+    // hibák
+    if (hibak.length > 0) {
+        alert(hibak.join("\n"));
+        return false;
+    }
+    return true;
+}

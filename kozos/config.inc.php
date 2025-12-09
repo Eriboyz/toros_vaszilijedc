@@ -16,6 +16,8 @@ $oldalak = array(
     'tamogatas' => ['fajl' => 'tamogatas', 'szoveg' => 'Támogatás'],
     'kepek' => ['fajl' => 'kepek', 'szoveg' => 'Képek'],
     'feltoltes' => ['fajl' => 'kepek', 'szoveg' => 'Feltöltés', 'rejtett' => true],
+    'kapcsolat' => ['fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat'],
+    'uzenet' => ['fajl' => 'uzenet', 'szoveg' => 'Üzenet', 'rejtett' => true],
 );
 
 //képekhez beállítások
