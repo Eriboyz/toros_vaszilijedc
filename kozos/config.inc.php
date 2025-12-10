@@ -18,6 +18,7 @@ $oldalak = array(
     'feltoltes' => ['fajl' => 'kepek', 'szoveg' => 'Feltöltés', 'rejtett' => true],
     'kapcsolat' => ['fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat'],
     'uzenet' => ['fajl' => 'uzenet', 'szoveg' => 'Üzenet', 'rejtett' => true],
+    'uzenetek' => ['fajl' => 'uzenetek', 'szoveg' => 'Üzenetek'],
 );
 
 //képekhez beállítások
